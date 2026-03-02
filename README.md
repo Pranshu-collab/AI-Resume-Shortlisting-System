@@ -216,15 +216,15 @@ The app orchestrates the full pipeline:
 Upload → Parse → Score → Display
 
 ### 7. Running the System
-Step 1: Clone or Download Project
-Download the entire project directory.
-Step 2: Create Virtual Environment
-Inside project folder:
-Create virtual environment
-Activate it
-Step 3: Install Requirements
-Install all dependencies using:
-requirements.txt
+#### Step 1: Clone or Download Project
+- Download the entire project directory.
+#### Step 2: Create Virtual Environment
+- Inside project folder:
+- Create virtual environment
+- Activate it
+#### Step 3: Install Requirements
+- Install all dependencies using:
+- requirements.txt
 This includes:
 - streamlit
 - langchain
@@ -233,25 +233,25 @@ This includes:
 - sentence-transformers
 - PyPDF
 - other NLP utilities
-Step 4: Add OpenAI API Key
-After generating a new API key:
-Store it securely:
-Option 1:
-Environment variable
-Option 2:
-.env file
-The key is used inside:
-Resume parser (LLM initialization)
-Job description parser
-Never hardcode the key inside source files.
-Step 5: Run the Application
-Activate virtual environment.
-Run:
-streamlit run app.py
-Streamlit will generate a local URL.
-Open in browser.
-Upload resume + job description.
-View structured output + scores.
+#### Step 4: Add OpenAI API Key
+- After generating a new API key:
+- Store it securely:
+- Option 1:
+- Environment variable
+- Option 2:
+- .env file
+- The key is used inside:
+- Resume parser (LLM initialization)
+- Job description parser
+- Never hardcode the key inside source files.
+#### Step 5: Run the Application
+- Activate virtual environment.
+- Run:
+- streamlit run app.py
+- Streamlit will generate a local URL.
+- Open in browser.
+- Upload resume + job description.
+- View structured output + scores.
 
 ### 8. Architectural Strengths
 - Modular
